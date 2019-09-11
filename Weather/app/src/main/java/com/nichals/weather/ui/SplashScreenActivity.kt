@@ -1,8 +1,9 @@
-package com.nichals.weather
+package com.nichals.weather.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.nichals.weather.R
 import java.util.*
 import kotlin.concurrent.schedule
 
@@ -13,7 +14,7 @@ class SplashScreenActivity : AppCompatActivity() {
         setContentView(R.layout.activity_splash_screen)
 
         Timer().schedule(2000) {
-            startActivity(Intent(applicationContext, MainActivity::class.java))
+            startActivity(Intent(applicationContext, WeatherActivity::class.java))
         }
     }
 }
