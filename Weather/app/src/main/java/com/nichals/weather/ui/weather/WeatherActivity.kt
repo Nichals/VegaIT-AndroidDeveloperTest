@@ -1,4 +1,4 @@
-package com.nichals.weather.ui
+package com.nichals.weather.ui.weather
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -7,7 +7,6 @@ import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.nichals.weather.R
-import com.nichals.weather.WeatherViewModel
 import kotlinx.android.synthetic.main.activity_main.*
 
 class WeatherActivity : AppCompatActivity() {

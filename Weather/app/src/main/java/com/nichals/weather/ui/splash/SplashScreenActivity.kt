@@ -1,9 +1,10 @@
-package com.nichals.weather.ui
+package com.nichals.weather.ui.splash
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.nichals.weather.R
+import com.nichals.weather.ui.weather.WeatherActivity
 import java.util.*
 import kotlin.concurrent.schedule
 

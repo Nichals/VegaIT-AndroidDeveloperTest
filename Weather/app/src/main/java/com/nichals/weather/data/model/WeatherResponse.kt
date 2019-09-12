@@ -1,4 +1,4 @@
-package com.nichals.weather.data
+package com.nichals.weather.data.model
 
 import com.google.gson.annotations.SerializedName
 

@@ -7,14 +7,14 @@
 
         <variable
                 name="viewModel"
-                type="com.nichals.weather.WeatherViewModel" />
+                type="com.nichals.weather.ui.weather.WeatherViewModel" />
 
     </data>
     <androidx.constraintlayout.widget.ConstraintLayout
 
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            tools:context=".ui.WeatherActivity">
+            tools:context=".ui.weather.WeatherActivity">
         <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recyclerview"
                 android:layout_width="395dp"
